@@ -22,6 +22,8 @@ int main()
     // Student rahim(5,'A',11,name);
     Student* rahim = new Student(5,'A',11,name);
     (*rahim).roll=55;
+    size_t size = sizeof(Student);
+    cout<<size;
 
     // int * a = new int;
     // *a=10;

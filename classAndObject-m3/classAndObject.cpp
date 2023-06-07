@@ -7,7 +7,7 @@ class Student
         int roll;
         int cls;
         char section;
-};
+    };
 int main()
 {
     Student rahim;
@@ -23,6 +23,9 @@ int main()
     karim.section='C';
     char nm2[100]="Karim Cholimulla";
     strcpy(karim.name,nm2);
+
+    size_t size = sizeof(Student);
+    cout<<size;
 
     cout<<rahim.roll;
     return 0;
